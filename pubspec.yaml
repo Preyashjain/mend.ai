@@ -1,0 +1,74 @@
+name: mend_ai
+description: A voice-based AI Couples Therapist app.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.8.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Core
+  cupertino_icons: ^1.0.2
+  provider: ^6.1.2
+  intl: ^0.20.2
+
+  # Firebase & Appwrite (Choose one backend to avoid conflicts)
+  appwrite: ^17.0.1
+  firebase_core: ^3.6.0
+  firebase_auth: ^5.3.3
+  cloud_firestore: ^5.5.0
+
+  # Navigation
+  go_router: ^16.0.0
+  flutter_hooks: ^0.21.2
+
+  # Permissions & Files
+  permission_handler: ^12.0.1
+  path_provider: ^2.1.3
+
+  # IDs & Files
+  uuid: ^4.4.0
+
+  # Charts
+  fl_chart: ^1.0.0
+
+  # Animations
+  lottie: ^3.3.1
+  rive: ^0.13.20
+
+  # Sharing & Links
+  share_plus: ^11.0.0
+  url_launcher: ^6.2.1
+
+  # Local Storage
+  shared_preferences: ^2.2.2
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+
+  # HTTP
+  http: ^1.1.0
+  dio: ^5.4.0
+
+  # UI
+  flutter_svg: ^2.0.9
+  cached_network_image: ^3.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+  build_runner: ^2.4.7
+  hive_generator: ^2.0.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/audio/
+    - assets/animations/
